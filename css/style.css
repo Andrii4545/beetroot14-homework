@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 html, body{
-    height: 7000px;
     max-width: 2500px;
     /* display: flex;
     justify-content: center; */
@@ -237,12 +236,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 .subscriForm,.subscribeHead{
-    /* position: absolute;
-    left: 165px;
-    bottom: 100px; */
     margin-left: 165px;
 }
 .inpEmail{
