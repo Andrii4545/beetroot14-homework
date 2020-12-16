@@ -362,9 +362,29 @@ header{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     font-size: 16pt;
+    margin-bottom: 0;
 }
 .contactAdress>p:nth-child(2n){
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16pt;
+    margin-bottom: 5px;
+}
+footer{
+    color: rgb(163, 163, 163);
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+.lofoFt>a{
+    font-family: 'Pacifico', cursive;
+    font-size: 19pt;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+.textFt>p>span{
+    color: rgb(255, 43, 88);
 }
