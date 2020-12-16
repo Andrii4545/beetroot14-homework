@@ -9,9 +9,7 @@ html, body{
     justify-content: center; */
 }
 .navbar{
-    /* max-width: 3000px; */
-    width: 100%;
-    
+    max-width: 2500px;    
 }
 .btn{
     margin-left: 10px;
@@ -125,7 +123,8 @@ header{
     background-color: yellow;
 }
 .btnServs:active{
-    background-color: tomato;
+    /* background-color: tomato; */
+    background-color: rgba(231, 105, 105, 0.8);
 }
 .btnServs>svg{
     margin-right: 10px;
@@ -141,4 +140,91 @@ header{
     color: white;
     font-weight: bold;
     font-size: 5em;
+}
+.gallery{
+    height: 1534px;
+    background-color: #ffe92f;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galleryGrid{
+    width: 1200px;
+    height: 940px;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    cursor: pointer;
+}
+.galleryHead{
+    width: 73%;
+    text-align: center;
+}
+.galleryHead>h2{
+    font-size: 50pt;
+}
+.conteinerGrid1{
+    background-image: url(../img/gridPersio.png);
+    grid-column-start: 1;
+    grid-column-end: 9; 
+    grid-row-start: 1;
+    grid-row-end: 7;
+    
+}
+.hoverGrid{
+    transition: ease-in-out .4s;
+}
+.hoverGrid:hover{
+    transform: scale(1.05);
+}
+
+.conteinerGrid2{
+    background-image: url(../img/berryimg1.png);
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.conteinerGrid3{
+    background-image: url(../img/gridmulberry.png);
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.conteinerGrid4{
+    background-image: url(../img/gridCream.png);
+    grid-column-start: 1;
+    grid-column-end: 7;  
+    grid-row-start: 7;
+    grid-row-end: 14;
+}
+.conteinerGrid5{
+    background-image: url(../img/gridFruit.png);
+    grid-column-start: 7;
+    grid-column-end: 13; 
+    grid-row-start: 7;
+    grid-row-end: 14;
+}
+.galleryBtn{
+    margin: 52px;
+    width: 200px;
+    height: 55px;
+    
+}
+.viewBtn{
+    text-decoration: none;
+    width: 200px;
+    height: 55px;
+    border: none;
+    background-color: rgb(48, 107, 156);
+    color: white;
+    transition: ease-in-out .4s;
+}
+.viewBtn:hover{
+    background-color: rgb(90, 135, 172);
 }
