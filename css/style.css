@@ -161,7 +161,7 @@ header{
     cursor: pointer;
 }
 .galleryHead{
-    width: 73%;
+    width: 70%;
     text-align: center;
 }
 .galleryHead>h2{
@@ -227,4 +227,144 @@ header{
 }
 .viewBtn:hover{
     background-color: rgb(90, 135, 172);
+}
+.subscribe{
+    height: 500px;
+    background-image: url(../img/bgSubscripe.png);
+    background-size: 96% 100%;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.subscriForm,.subscribeHead{
+    /* position: absolute;
+    left: 165px;
+    bottom: 100px; */
+    margin-left: 165px;
+}
+.inpEmail{
+    width: 570px;
+    height: 55px;
+}
+.inpSub{
+    width: 170px;
+    height: 55px;
+    background-color: rgb(150, 185, 44);
+    border: none;
+}
+.subscribeHead>p{
+    width: 570px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 870px;
+    background-color: rgb(176, 124, 247);
+}
+.blogHead{
+    width: 570px;
+    text-align: center;
+    margin-top: 100px;
+}
+.blogBody{
+    display: flex;
+    
+}
+.box{
+    width: 370px;
+    height: 310px;
+    background-color: royalblue;
+    transition: ease-in-out .4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.box:hover{
+    transform: scale(1.15);
+}
+.Koctel{
+    background-image: url(../img/kocktel.png);
+    margin: 20px;
+}
+.Sup{
+    background-image: url(../img/sup.png);
+    margin: 20px;
+}
+.Raspberry{
+    background-image: url(../img/rasbery.png);
+    margin: 20px;
+}
+.viewBlog{
+    margin-bottom: 130px;
+    background-color: rgb(247, 43, 59);
+}
+.date{
+    width: 65px;
+    height: 65px;
+    background-color: rgba(80, 87, 96, .5);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.contact{
+    height: 867px;
+    background-image: url(../img/bgContact.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactHead{
+    text-align: center;
+}
+.contactBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactAdress{
+    margin-left: 150px;
+}
+.contactForm>form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contColr{
+    background-color: rgba(125, 233, 233, .5);
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    border: none;
+}
+.contColr:focus-visible{
+    background-color: rgba(51, 187, 187, 0.5);
+}
+.contMess{
+    height: 250px;
+    text-align: start;
+    
+}
+.contBtn{
+    height: 50px;
+    width: 150px;
+    background-color:rgba(125, 233, 233, .5);
+}
+.contactAdress>p:nth-child(2n+1){
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+}
+.contactAdress>p:nth-child(2n){
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
 }
