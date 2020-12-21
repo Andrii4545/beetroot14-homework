@@ -397,8 +397,134 @@ footer{
 .textFt>p>span{
     color: rgb(255, 43, 88);
 }
-@media (max-width: 1200px){
-
+@media (max-width: 1230px){
+    .text-us>p {
+    width: 200px;
+    }
+    .gallery{
+        height: 1300px;
+    }
+    .galleryGrid{
+        width: 800px;
+        height: 700px;
+    }
+    .box{
+        width: 260px;
+        height: 255px;
+    }
+    .contactForm>form {
+    margin-left: 10px;
+    }
+}
+@media (max-width: 900px){
+    .about-us{
+        flex-direction: row;
+    }
+    .raspberry>img{
+        width: 500px;
+        height: 500px; 
+    }
+    .text-us{
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .services{
+        flex-direction: column-reverse;
+    }
+    .imgTomato>img{
+        width: 300px;
+        height: 300px; 
+    }
+    .blockTomato {
+        width: 300px;
+    }
+    .textTomato{
+        left: 20%;
+        font-size: 2em;
+    }
+    .galleryGrid{
+        width: 650px;
+        height: 620px;
+    }
+    .gallery{
+        height: 1050px;
+    }
+    .subscribe{
+        background-size: contain;
+    }
+    .subscribeHead, .subscriForm{
+        margin-left: 10px;
+    }
+    .subscribeHead>p,.inpEmail{
+        width: 300px;
+    }
+    .inpSub{
+        margin-top: 10px;
+    }
+    .blogBody{
+        flex-direction: column;
+    }
+    .box {
+        width: 288px;
+        height: 223px;
+    }
+    .blog{
+        height: 1113px;
+    }
+    .viewBlog{
+        margin-bottom:10px
+    }
+    .blogHead{
+        margin-top:10px;
+        width: 310px;
+    }
+    .contactBody{
+        flex-direction: column-reverse;
+    }
+    .contColr{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .contactAdress{
+        margin-left: 10px;
+    }
+    .contBtn{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 700px){
+    .about-us{
+        flex-direction: column;
+    }
+    .raspberry>img{
+        width: 300px;
+        height: 300px; 
+    }
+    .gallery{
+        height: 1000px;
+    }
+    .galleryGrid{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media (max-width: 600px){
+    .fresh-life{
+        height: 600px;
+    }
+    .galleryGrid{
+        width: 500px;
+        height: 400px;
+    }
+}
+@media (max-width: 500px){
+    .galleryGrid{
+        width: 400px;
+        height: 400px;
+    }
 }
 @media (max-width: 400px){
     .fresh-life {
@@ -422,7 +548,7 @@ footer{
         text-align: center;
     }
     .services{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .imgTomato>img{
         width: 300px;
@@ -443,7 +569,7 @@ footer{
     }
     .galleryGrid{
         width: 300px;
-        height: 430px;
+        height: 400px;
     }
     .hoverGrid:hover{
         transform: scale(1.5)
